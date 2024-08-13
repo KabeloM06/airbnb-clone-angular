@@ -1,1 +1,11 @@
-<p>avatar works!</p>
+<div>
+    @if(imageUrl() != null) {
+        <img src="{{imageUrl()}}" alt="user-avatar" class="border-rounder-3xl avatar"
+            [ngClass]="avatarSize()">
+    } @else {
+        <div class="flex align-items-center justify-content-center unkown-user"
+            [ngClass]="avatarSize()">
+            <fa-icon [icon]="['fas', 'user']" class="text-dark"></fa-icon>
+        </div>
+    }
+</div>
