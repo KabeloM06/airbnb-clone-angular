@@ -4,6 +4,7 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
 import {ButtonModule} from 'primeng/button';
 import { fontAwesomeIcons } from './shared/font-awesome-icons';
 import { NavbarComponent } from "./layout/navbar/navbar.component";
+import { FooterComponent } from "./layout/footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { NavbarComponent } from "./layout/navbar/navbar.component";
     RouterOutlet,
     ButtonModule,
     FontAwesomeModule,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
