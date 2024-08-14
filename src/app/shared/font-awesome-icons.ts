@@ -1,7 +1,38 @@
-import {faUser, IconDefinition} from "@fortawesome/free-solid-svg-icons";
+import {faUser, IconDefinition, faBan, faBars, faBox, faChampagneGlasses, faMinus, faChessRook, faCircle, faCircleNotch, faDollarSign, faEarthEurope, faExclamation, faEye, faHillRockslide, faFire, faHouse, faKitchenSet, faLightbulb, faMugSaucer, faPersonSkiing, faPlus, faSailboat, faSnowflake, faTent, faTowerObservation, faTractor, faTrashCan, faTree, faUmbrellaBeach, faWater, faSearch} from "@fortawesome/free-solid-svg-icons";
+
 import {faAirbnb} from "@fortawesome/free-brands-svg-icons";
 
 export const fontAwesomeIcons: IconDefinition[] = [
-    faAirbnb,
-    faUser
+    faBan,
+    faBars,
+    faBox,
+    faChampagneGlasses,
+    faChessRook,
+    faCircle,
+    faCircleNotch,
+    faDollarSign,
+    faEarthEurope,
+    faExclamation,
+    faEye,
+    faFire,
+    faHillRockslide,
+    faHouse,
+    faKitchenSet,
+    faLightbulb,
+    faMinus,
+    faMugSaucer,
+    faPersonSkiing,
+    faPlus,
+    faSailboat,
+    faSearch,
+    faSnowflake,
+    faTent,
+    faTowerObservation,
+    faTractor,
+    faTrashCan,
+    faTree,
+    faUmbrellaBeach,
+    faUser,
+    faWater,
+    faAirbnb
 ]
